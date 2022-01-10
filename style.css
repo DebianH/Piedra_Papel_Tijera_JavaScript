@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2d2f35;
+}
+header {
+    background:#fff;
+    padding: 20px;
+}
+header > h1 {
+    color: #25273e;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+.score-board {
+    margin: 20px auto;
+    border: 3px solid #fff;
+    border-radius:5px;
+    text-align: center;
+    width:200px;
+    color: #fff;
+    font-size: 42px;
+    padding:15px 20px;
+    font-family:  Asap, sans-serif;
+    position: relative;
+}
+.badge {
+    background: #e2584d;
+    color: #fff;
+    font-size:14px;
+    padding: 2px 10px;
+    font-family: 'Staatliches';
+}
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+}
+.result {
+    font-size:35px;
+    color: #fff;
+}
+.result > p{
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+.choice > img {
+    width: 60px;
+    height: 60px;
+}
+.choices {
+    margin: 45px 0;
+    text-align: center;
+}
+.choice {
+    border: 4px solid #fff;
+    border-radius:50%;
+    margin: 0 20px;
+    padding: 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor: pointer;
+    background: #42444d;
+    border: 4px solid #fff;
+}
+#action-message {
+    text-align: center;
+    color: #fff;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.green-glow {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
