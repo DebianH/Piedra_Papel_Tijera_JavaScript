@@ -86,3 +86,23 @@ header > h1 {
     border: 4px solid #4dcc7d;
     box-shadow: 0 0 10px #31b43a;
 }
+.green-glow:hover {
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow {
+    border: 4px solid #dd1b1b;
+    box-shadow: 0 0 10px #ff2003;
+}
+.red-glow:hover {
+    border: 4px solid #dd1b1b;
+    box-shadow: 0 0 10px #ff2003;
+}
+.orange-glow {
+    border: 4px solid #eca829;
+    box-shadow: 0 0 10px #e7bd00;
+}
+.orange-glow:hover {
+    border: 4px solid #eca829;
+    box-shadow: 0 0 10px #e7bd00;
+}
